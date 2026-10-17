@@ -1,47 +1,21 @@
-# Homebrew Tap for Agent Skills
+# Homebrew Tap for Agent Skills (archived)
 
-This is the official Homebrew tap for [Agent Skills CLI](https://github.com/dmgrok/agent_skills_directory).
+> [!WARNING]
+> This tap is archived and unsupported. The `skillsdir` formula is no longer
+> maintained, and installing it through Homebrew is not expected to work.
 
-## Installation
+Skill and plugin discovery now lives in
+[Agent Plugins](https://github.com/dmgrok/agent-plugins). Use the
+[Agent Plugins website](https://dmgrok.github.io/agent-plugins/) to browse
+plugins and copy install commands, and see the
+[Agent Plugins README](https://github.com/dmgrok/agent-plugins#readme) for
+current usage and local development instructions.
 
-```bash
-brew tap dmgrok/tap
-brew install skillsdir
-```
+## Removing a previous install
 
-Or directly:
-
-```bash
-brew install dmgrok/tap/skillsdir
-```
-
-## Updating
-
-```bash
-brew upgrade skillsdir
-```
-
-## Uninstalling
+If you installed from this tap before, remove it with:
 
 ```bash
 brew uninstall skillsdir
-brew untap dmgrok/tap  # optional: remove the tap
+brew untap dmgrok/tap
 ```
-
-## Available Formulae
-
-| Formula | Description |
-|---------|-------------|
-| `skillsdir` | The package manager for AI agent skills |
-
-## Supported Platforms
-
-- macOS (Apple Silicon / ARM64)
-- macOS (Intel / x64)
-- Linux (x64)
-
-## Links
-
-- [Main Repository](https://github.com/dmgrok/agent_skills_directory)
-- [Documentation](https://dmgrok.github.io/agent_skills_directory/)
-- [Report Issues](https://github.com/dmgrok/agent_skills_directory/issues)
